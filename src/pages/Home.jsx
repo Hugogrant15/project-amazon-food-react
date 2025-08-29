@@ -242,7 +242,94 @@ const Home = () => {
         </section>
         {/* hero section 4 ends here  */}
 
-        
+
+         {/* Hero section 5 our new products starts here  */}
+       
+    <div class="container">
+      <h2 class="mt-lg-5 mt-5 pt-5 pt-lg-3 cardHeader-black">Our New Products</h2>
+         {/* section header here */}
+      <div class="hero2head d-flex justify-content-between align-items-center">
+        <span class="my-lg-4 my-4 CustomP-16-400">Browse our most popular snacks and make your day<br/> more beautiful and glorious.</span>
+        <button type="button" class="btn btn-outline-success fw-bold btnhero2 mb-5 mb-lg-0 py-lg-3 py-3">Browse All</button>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+           {/* first card here   */}
+          <div class="border-0 Image6Card1" >
+            <img src={Pt1} class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                <a class="text-reset " href="#">
+                  <i class="fa-regular fa-heart"></i>
+                </a> 
+              </div>
+              <p class="card-text cardtitle-Black">Organic Almond Delight</p>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="div">
+                  <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                  <span>5.0 (18)</span>
+                </div>
+                <span class="fw-bold">$110</span>
+              </div>
+            </div>
+              <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0 ">Add to cart</button>
+          </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+             {/* second card here   */}
+            <div class="border-0 Image6Card1">
+              <img src={Pr9} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                  <a class="text-reset " href="#">
+                    <i class="fa-regular fa-heart"></i>
+                  </a> 
+                </div>
+                <p class="card-text cardtitle-Black">Berry Bliss Bites</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="div">
+                    <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                    <span>5.0 (18)</span>
+                  </div>
+                  <span class="fw-bold">$139</span>
+                </div>
+              </div>
+                <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+             {/* third card here   */}
+            <div class="border-0 Image6Card1 " >
+              <img src={Pt3} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                  <a class="text-reset " href="#">
+                    <i class="fa-regular fa-heart"></i>
+                  </a> 
+                </div>
+                <p class="card-text cardtitle-Black">Coconut Crunchies</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="div">
+                    <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                    <span>5.0 (18)</span>
+                  </div>
+                  <span class="fw-bold">$399</span>
+                </div>
+              </div>
+                <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
+            </div>
+          </div>
+      </div>
+    </div>
+     {/* Hero section 5 ends here  */}
     </>
   )
 }
