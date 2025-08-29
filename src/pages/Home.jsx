@@ -1,5 +1,5 @@
 import React from 'react'
-import {Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14} from '../assets/Index';
+import {Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20} from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -243,18 +243,138 @@ const Home = () => {
         {/* hero section 4 ends here  */}
 
 
-         {/* Hero section 5 our new products starts here  */}
+      {/* Hero section 5 our new products starts here  */}
        
-    <div class="container">
-      <h2 class="mt-lg-5 mt-5 pt-5 pt-lg-3 cardHeader-black">Our New Products</h2>
-         {/* section header here */}
-      <div class="hero2head d-flex justify-content-between align-items-center">
-        <span class="my-lg-4 my-4 CustomP-16-400">Browse our most popular snacks and make your day<br/> more beautiful and glorious.</span>
-        <button type="button" class="btn btn-outline-success fw-bold btnhero2 mb-5 mb-lg-0 py-lg-3 py-3">Browse All</button>
-      </div>
+      <div class="container">
+        <h2 class="mt-lg-5 mt-5 pt-5 pt-lg-3 cardHeader-black">Our New Products</h2>
+          {/* section header here */}
+        <div class="hero2head d-flex justify-content-between align-items-center">
+          <span class="my-lg-4 my-4 CustomP-16-400">Browse our most popular snacks and make your day<br/> more beautiful and glorious.</span>
+          <button type="button" class="btn btn-outline-success fw-bold btnhero2 mb-5 mb-lg-0 py-lg-3 py-3">Browse All</button>
+        </div>
 
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+            {/* first card here   */}
+            <div class="border-0 Image6Card1" >
+              <img src={Pt1} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                  <a class="text-reset " href="#">
+                    <i class="fa-regular fa-heart"></i>
+                  </a> 
+                </div>
+                <p class="card-text cardtitle-Black">Organic Almond Delight</p>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="div">
+                    <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                    <span>5.0 (18)</span>
+                  </div>
+                  <span class="fw-bold">$110</span>
+                </div>
+              </div>
+                <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0 ">Add to cart</button>
+            </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+              {/* second card here   */}
+              <div class="border-0 Image6Card1">
+                <img src={Pr9} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                    <a class="text-reset " href="#">
+                      <i class="fa-regular fa-heart"></i>
+                    </a> 
+                  </div>
+                  <p class="card-text cardtitle-Black">Berry Bliss Bites</p>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="div">
+                      <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                      <span>5.0 (18)</span>
+                    </div>
+                    <span class="fw-bold">$139</span>
+                  </div>
+                </div>
+                  <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+              {/* third card here   */}
+              <div class="border-0 Image6Card1 " >
+                <img src={Pt3} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                    <a class="text-reset " href="#">
+                      <i class="fa-regular fa-heart"></i>
+                    </a> 
+                  </div>
+                  <p class="card-text cardtitle-Black">Coconut Crunchies</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="div">
+                      <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                      <span>5.0 (18)</span>
+                    </div>
+                    <span class="fw-bold">$399</span>
+                  </div>
+                </div>
+                  <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      {/* Hero section 5 ends here  */}
+
+
+       {/* hero section 6 (Black Friday) starts here   */}
+      <div class="container mt-lg-0 mt-5">
+        <h2 class="mt-lg-5 pt-lg-3 cardHeader-black">Hurry Do not Miss Out On<br/> This Offers!</h2>
+           {/* section header here  */}
+        <div class="hero2head d-flex justify-content-between align-items-center">
+          <span class="my-lg-4 CustomP-16-400 mt-lg-0 mt-3">Browse our most popular snacks and make your day<br/> more beautiful and glorious.</span>
+          <button type="button" class="btn btn-success btnhero2  py-4 py-lg-3 mt-lg-0 mt-4" onclick="showProducts(event)">Browse All</button>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 mt-lg-0 mt-5">
+              <img class="hero6Image" src={Pr15}  alt=""/>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 mt-lg-0 mt-4 OUTrelative">
+              <div class="border-0 Image6Card1">
+                <img  src={Pr16} class="card-img-top"  alt="..."/>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
+                    <a class="text-reset " href="#">
+                      <i class="fa-regular fa-heart"></i>
+                    </a> 
+                    <img src={Pr17} class="OUTabsolute" alt=""/>
+                     {/* <img src="./images/Frame 17948 (1).png" alt=""/>  */}
+                  </div>
+                  <p class="card-text cardtitle-Black ">Organic Almond Delight</p>
+
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="div ">
+                      <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                      <span>5.0 (18)</span>
+                    </div>
+                    <span class="fw-bold">$110</span>
+                  </div>
+                </div>
+                  <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
+              </div>
+            </div>      
+          </div>
+
+           {/* hero 6 bottom  card section */}
+          <div class="row mt-lg-4">
+        <div class="col-sm-12 col-md-12 col-lg-4 ">
            {/* first card here   */}
           <div class="border-0 Image6Card1" >
             <img src={Pt1} class="card-img-top" alt="..."/>
@@ -275,13 +395,13 @@ const Home = () => {
                 <span class="fw-bold">$110</span>
               </div>
             </div>
-              <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0 ">Add to cart</button>
+              <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
           </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+          <div class="col-sm-12 col-md-12 col-lg-4 ">
              {/* second card here   */}
-            <div class="border-0 Image6Card1">
+            <div class="border-0 Image6Card1" >
               <img src={Pr9} class="card-img-top" alt="..."/>
               <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
@@ -300,13 +420,13 @@ const Home = () => {
                   <span class="fw-bold">$139</span>
                 </div>
               </div>
-                <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
+                <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
             </div>
           </div>
 
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
-             {/* third card here   */}
-            <div class="border-0 Image6Card1 " >
+          <div class="col-sm-12 col-md-12 col-lg-4 ">
+             {/* third card here  */}
+            <div class="border-0 Image6Card1" >
               <img src={Pt3} class="card-img-top" alt="..."/>
               <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
@@ -324,12 +444,37 @@ const Home = () => {
                   <span class="fw-bold">$399</span>
                 </div>
               </div>
-                <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
+                <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
             </div>
           </div>
+        </div>
       </div>
-    </div>
-     {/* Hero section 5 ends here  */}
+         {/* hero section 6 ends here   */}
+
+
+         {/* hero section 7 (SUBSCRIBE TO NEWS LETTER) starts here  */}
+    <section class= "hero4background2 PrelatiVE ">
+      <div class="container text-lg-center hero7Image mt-lg-5 mt-5 pt-lg-5 py-5" style={{backgroundImage: `url(${Pr18})`}}>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center text-white mt-lg-5 ">
+              <h3 class="newfont">Subscribe Our Newsletter</h3>
+              <p class="CustomP-16-400 text-white">Receive latest updates on our products and many other things<br/> every week. </p>
+              <img  class="ImgAbsolute" src={Pr19} alt=""/>
+              <img class="ImggAbsolute" src={Pr20} alt=""/>
+              <form action="" >
+                <span class="FormRelative">
+                  <input  type="email" class="form inptTBtn " placeholder="Enter your email address"/>
+                  <button class="fromAbsol"><i class="fa-regular fa-paper-plane" style={{color: "#fff"}}></i></button>
+                </span>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     {/* hero section ends here */}
     </>
   )
 }
