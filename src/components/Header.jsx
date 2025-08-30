@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Pr } from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faStar, faSearch, faBagShopping, faUser} from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (

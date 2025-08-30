@@ -3,6 +3,7 @@ import {Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12,
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 const Home = () => {
   return (
     <>

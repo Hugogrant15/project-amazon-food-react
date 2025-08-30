@@ -1,5 +1,5 @@
 import React from 'react'
-import { Pr } from '../assets/Index';
+import { Pr, Pr21 } from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -75,7 +75,7 @@ const Footer = () => {
               <img src={Pr} style={{width: "40px", height: "40px"}} alt=""/>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-lg-0 mt-3">
-              <img src="./images/pay.png" alt=""/>
+              <img src={Pr21} alt=""/>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-5 col-xl-5 mt-lg-0 mt-3">
               <small>Copyright © 2024 FoodieAmazon. All Rights Reserved</small>

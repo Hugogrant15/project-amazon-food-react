@@ -21,8 +21,11 @@ import Pr17 from './pr17.png';
 import Pr18 from './pr18.png';
 import Pr19 from './pr19.png';
 import Pr20 from './pr20.png';
+import Pr21 from './pr21.png';
+import Pr22 from './pr22.png';
+import Pr23 from './pr23.png';
 
 
 
 
-export {Pr, Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20};
+export {Pr, Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20, Pr21, Pr22, Pr23};  
