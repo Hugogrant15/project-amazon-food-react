@@ -139,6 +139,18 @@
   transform: scale(2);
 }
 
+.hero1Btn {
+  border: 1px solid #f58634;
+  font-family: "Inter", sans-serif;
+  width: 150px;
+  height: 48px;
+  background: #f58634;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
 .hero1Btn:hover {
   background-color: #f58634;
   color: white;

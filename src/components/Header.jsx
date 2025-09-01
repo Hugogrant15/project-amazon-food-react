@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import { Pr } from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faStar, faSearch, faBagShopping, faUser} from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass, faShoppingBag, faUser} from "@fortawesome/free-solid-svg-icons";
+import { faHeart  } from "@fortawesome/free-regular-svg-icons";
 
 const Header = () => {
   return (
@@ -46,20 +47,20 @@ const Header = () => {
         <form className="d-flex">
           <div className="d-flex align-items-center">
             <span className="input-group-text border-0 me-lg-5 pe-lg-4" style={{background: "transparent", border: "none"}} id="search-addon">
-            <i className="fas fa-search " ></i>
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
             </span>
             <a className="text-reset me-3" href="#">
-              <i className="fa-regular fa-heart" ></i>
+              <FontAwesomeIcon icon={faHeart} />
             </a>
             <div className="position-relative me-3">
-              <a href="./cart.html"><i className="fa-solid fa-bag-shopping fa-2x w-75" style={{color: "#0F0B0B"}}></i></a> 
+              <a href="./cart.html"><FontAwesomeIcon icon={faShoppingBag} className="fa-solid fa-bag-shopping fa-2x w-75" style={{color: "#0F0B0B"}}></FontAwesomeIcon></a> 
               <span className="badge rounded-pill bg-danger position-absolute top-0 start-100 translate-middle">
                   5
                   <span className="visually-hidden">items in cart</span>
               </span>
            </div>
             <a className="text-reset me-3" href="./">
-              <i className="fa-solid fa-user fa-1x"></i>
+              <FontAwesomeIcon icon={faUser} className="fa-solid fa-user fa-1x"></FontAwesomeIcon>
             </a>
             <button className="btn btn-success " type="submit">Contact us</button>
           </div>

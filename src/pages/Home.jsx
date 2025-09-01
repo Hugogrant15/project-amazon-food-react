@@ -1,7 +1,10 @@
 import React from 'react'
-import {Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20} from '../assets/Index';
+import ProductList from '../components/ProductList';
+import {Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20, Pr} from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faShop} from "@fortawesome/free-solid-svg-icons";
+import { faHeart  } from "@fortawesome/free-regular-svg-icons";
 
 
 const Home = () => {
@@ -13,7 +16,7 @@ const Home = () => {
             <div className="col-sm-12 col-md-12 col-lg-6 mt-lg-5 pt-lg-5">
               <p id="interBlack">Discover the Pure Taste of Nature</p>
               <h1 className="mt-4"><span id="Green1">Organic</span><span id="Orange1"> Snacks</span><br/><span id="Green1"> Made</span><span id="Orange1"> with</span><span id="Green1"> Love,</span><br/><span id="Green1"> Just</span><span id="Orange1"> for</span><span id="Green1"> You!</span></h1>
-              <button className="btn hero1Btn mt-5 liquid-morph-element mb-5 mb-lg-0 py-lg-4">Show Now<i className="fa-solid fa-shop ms-lg-3 ms-md-3 ms-3" style={{color: "#ffffff"}}></i></button>
+              <button className="btn hero1Btn mt-5  mb-5 mb-lg-0 py-lg-4">Show Now<FontAwesomeIcon icon={faShop} className="fa-solid fa-shop ms-lg-3 ms-md-3 ms-3" style={{color: "#ffffff"}}></FontAwesomeIcon></button>
               <img src={Pr2} className="mt-lg-5 mt-4 " alt=""/>
             </div>
 
@@ -73,81 +76,7 @@ const Home = () => {
             <button type="button" className="btn btn-outline-success fw-bold btnhero2  py- py-lg-3 py-3 my-lg-0 my-4">Browse All</button>
           </div>
 
-          <div className="row ">
-            <div className="col-sm-12 col-md-12 col-lg-4 mt-lg-0 mt-3">
-               {/* first card here  */}
-              <div className="border-0 " id="imgWidth">
-                <img src={Pt1} className="card-img-top w-sm-100" alt="..."/>
-                <div className="card-body">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <h5 className="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                    <a className="text-reset " href="#">
-                      <i className="fa-regular fa-heart"></i>
-                    </a> 
-                  </div>
-                  <p className="card-text cardtitle-Black">Organic Almond Delight</p>
-
-                  <div className="d-flex justify-content-between align-items-center ">
-                    <div className="div">
-                      <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                      <span>5.0 (18)</span>
-                    </div>
-                    <span className="fw-bold">$110</span>
-                  </div>
-                </div>
-                  <button className="btn customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
-              </div>
-              </div>
-
-              <div className="col-sm-12 col-md-12 col-lg-4 mt-lg-0 mt-3">
-                  {/* second card here   */}
-                <div className="border-0 " id="imgWidth">
-                  <img src={Pr9} className="card-img-top" alt="..."/>
-                  <div className="card-body">
-                    <div className="d-flex justify-content-between align-items-center">
-                      <h5 className="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                      <a className="text-reset " href="#">
-                        <i className="fa-regular fa-heart"></i>
-                      </a> 
-                    </div>
-                    <p className="card-text cardtitle-Black">Berry Bliss Bites</p>
-
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="div">
-                        <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                        <span>5.0 (18)</span>
-                      </div>
-                      <span className="fw-bold">$139</span>
-                    </div>
-                  </div>
-                    <button className="btn customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
-                </div>
-              </div>
-
-              <div className="col-sm-12 col-md-12 col-lg-4 mt-lg-0 mt-3">
-                 {/* third card here  */}
-                <div className="border-0 " id="imgWidth">
-                  <img src={Pt3} className="card-img-top" alt="..."/>
-                  <div className="card-body">
-                    <div className="d-flex justify-content-between align-items-center">
-                      <h5 className="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                      <a className="text-reset " href="#">
-                        <i className="fa-regular fa-heart"></i>
-                      </a> 
-                    </div>
-                    <p className="card-text cardtitle-Black">Coconut Crunchies</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="div">
-                        <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                        <span>5.0 (18)</span>
-                      </div>
-                      <span className="fw-bold">$399</span>
-                    </div>
-                  </div>
-                    <button className="btn customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
-                </div>
-              </div>
-          </div>
+          <ProductList/>
         </div>
           {/* hero section 2 ends here  */}
 
@@ -254,81 +183,7 @@ const Home = () => {
           <button type="button" class="btn btn-outline-success fw-bold btnhero2 mb-5 mb-lg-0 py-lg-3 py-3">Browse All</button>
         </div>
 
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
-            {/* first card here   */}
-            <div class="border-0 Image6Card1" >
-              <img src={Pt1} class="card-img-top" alt="..."/>
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                  <a class="text-reset " href="#">
-                    <i class="fa-regular fa-heart"></i>
-                  </a> 
-                </div>
-                <p class="card-text cardtitle-Black">Organic Almond Delight</p>
-
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="div">
-                    <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                    <span>5.0 (18)</span>
-                  </div>
-                  <span class="fw-bold">$110</span>
-                </div>
-              </div>
-                <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0 ">Add to cart</button>
-            </div>
-            </div>
-
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
-              {/* second card here   */}
-              <div class="border-0 Image6Card1">
-                <img src={Pr9} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                    <a class="text-reset " href="#">
-                      <i class="fa-regular fa-heart"></i>
-                    </a> 
-                  </div>
-                  <p class="card-text cardtitle-Black">Berry Bliss Bites</p>
-
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="div">
-                      <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                      <span>5.0 (18)</span>
-                    </div>
-                    <span class="fw-bold">$139</span>
-                  </div>
-                </div>
-                  <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
-              </div>
-            </div>
-
-            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
-              {/* third card here   */}
-              <div class="border-0 Image6Card1 " >
-                <img src={Pt3} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center">
-                    <h5 class="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                    <a class="text-reset " href="#">
-                      <i class="fa-regular fa-heart"></i>
-                    </a> 
-                  </div>
-                  <p class="card-text cardtitle-Black">Coconut Crunchies</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="div">
-                      <span><i class="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                      <span>5.0 (18)</span>
-                    </div>
-                    <span class="fw-bold">$399</span>
-                  </div>
-                </div>
-                  <button class="btn customBtn mt-4 hover-underline mb-4 mb-lg-0">Add to cart</button>
-              </div>
-            </div>
-        </div>
+        <ProductList/>
       </div>
       {/* Hero section 5 ends here  */}
 
