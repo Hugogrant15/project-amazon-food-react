@@ -802,7 +802,17 @@ width: 93.9%;
 }
 
 .LightGbtn {
+  border: none;
   background-color: #00a859;
+  border-radius: 5px;
+  color: #fff;
+  width: 199px;
+  height: 60px;
+  font-size: 16px;
+}
+.LightGbtn:hover {
+  background-color: #00a859;
+  border-radius: 50px;
   color: #fff;
   width: 199px;
   height: 60px;

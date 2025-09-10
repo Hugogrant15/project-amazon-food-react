@@ -25,8 +25,17 @@ import Pr21 from './pr21.png';
 import Pr22 from './pr22.png';
 import Pr23 from './pr23.png';
 import Pr24 from './pr24.png';
+import Pr25 from './pr25.png';
+import Pr26 from './pr26.png';
+import Pr27 from './pr27.png';
+import Pr28 from './pr28.png';
+import Pr29 from './pr29.png';
+import Pr30 from './pr30.png';
 
 
 
 
-export {Pr, Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20, Pr21, Pr22, Pr23, Pr24};  
+export {Pr, Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10,
+        Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20,
+        Pr21, Pr22, Pr23, Pr24, Pr25, Pr26, Pr27, Pr28, Pr29, Pr30
+    };  

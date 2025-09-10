@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Style.css'
 import ProductList from '../components/ProductList';
-import {Pr22, Pr23, Pr24} from '../assets/Index'
+import {Pr22, Pr23, Pr24, Pr25, Pr26, Pr27, Pr28, Pr29, Pr30} from '../assets/Index'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faNairaSign } from "@fortawesome/free-solid-svg-icons";
 import {   } from "@fortawesome/free-regular-svg-icons";
@@ -104,10 +104,10 @@ const Products = () => {
 
                     <label for="inputEmail4" className="form-label CustomP-14-4000 mt-lg-4">Write a review</label>
                     <div className="form-floating">
-                        <textarea className="form TextArea1 mt-lg-3 mt-3 productImage1" placeholder="Tell us what you think"  id="floatingTextarea2" ></textarea>
+                        <textarea className="form TextArea1 mt-lg-3 mt-3 productImage1" placeholder=" Tell us what you think"  id="floatingTextarea2" ></textarea>
                         <label for="floatingTextarea2"></label>
                     </div>
-                    <button className="btn LightGbtn mt-lg-3 mt-3 py-lg-2" type="submit">Submit Review</button>
+                    <button className=" LightGbtn mt-lg-3 mt-3 py-lg-2" type="submit">Submit Review</button>
                 </form>
             </div>
         </div>
@@ -120,31 +120,14 @@ const Products = () => {
           <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
               <div className="card shadow cardWidth" style={{width: "22rem"}}>
                   <div className="card-body">
-                      <img src="./images/Login/Ellipse 28.png" alt=""/>
+                      <img src={Pr25} alt=""/>
                       <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
                       <div>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                      </div>
-                      <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
-                      <p className="card-text CustomP-14-400">They're the perfect snack for my kids<br/> and I feel great knowing they're eating<br/> something healthy and natural.</p>
-                  </div>
-              </div>
-          </div>
-          <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
-              <div className="card shadow cardWidth" style={{width: "22rem"}}>
-                  <div className="card-body">
-                      <img src="./images/Login/Ellipse 28.png" alt=""/>
-                      <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
-                      <div>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                          <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
                           
                       </div>
                       <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
@@ -155,14 +138,31 @@ const Products = () => {
           <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
               <div className="card shadow cardWidth" style={{width: "22rem"}}>
                   <div className="card-body">
-                      <img src="./images/Login/Ellipse 28.png" alt=""/>
+                      <img src={Pr26} alt=""/>
                       <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
                       <div>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                      </div>
+                      <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
+                      <p className="card-text CustomP-14-400">They're the perfect snack for my kids<br/> and I feel great knowing they're eating<br/> something healthy and natural.</p>
+                  </div>
+              </div>
+          </div>
+          <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
+              <div className="card shadow cardWidth" style={{width: "22rem"}}>
+                  <div className="card-body">
+                      <img src={Pr27} alt=""/>
+                      <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
+                      <div>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
                       </div>
                       <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
                       <p className="card-text CustomP-14-400">They're the perfect snack for my kids<br/> and I feel great knowing they're eating<br/> something healthy and natural.</p>
@@ -174,14 +174,14 @@ const Products = () => {
           <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
               <div className="card shadow cardWidth" style={{width: "22rem"}}>
                   <div className="card-body">
-                      <img src="./images/Login/Ellipse 28.png" alt=""/>
+                      <img src={Pr28} alt=""/>
                       <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
                       <div>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
                       </div>
                       <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
                       <p className="card-text CustomP-14-400">They're the perfect snack for my kids<br/> and I feel great knowing they're eating<br/> something healthy and natural.</p>
@@ -191,14 +191,14 @@ const Products = () => {
           <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
               <div className="card shadow cardWidth" style={{width: "22rem"}}>
                   <div className="card-body">
-                      <img src="./images/Login/Ellipse 28.png" alt=""/>
+                      <img src={Pr29} alt=""/>
                       <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
                       <div>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
                       </div>
                       <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
                       <p className="card-text CustomP-14-400">They're the perfect snack for my kids<br/> and I feel great knowing they're eating<br/> something healthy and natural.</p>
@@ -208,14 +208,14 @@ const Products = () => {
           <div className="col-sm-12 col-md-12 col-lg-4 mt-3 mt-lg-0">
               <div className="card shadow cardWidth" style={{width: "22rem"}}>
                   <div className="card-body">
-                      <img src="./images/Login/Ellipse 28.png" alt=""/>
+                      <img src={Pr30} alt=""/>
                       <h5 className="card-title mt-lg-3">Sarah Taylor</h5>
                       <div>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                        <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                          <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
                       </div>
                       <h5 className="card-subtitle mb-2 text-muted mt-lg-3 cardtitle-Black">Organic Fruit Bites</h5>
                       <p className="card-text CustomP-14-400">They're the perfect snack for my kids<br/> and I feel great knowing they're eating<br/> something healthy and natural.</p>
