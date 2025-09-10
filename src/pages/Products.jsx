@@ -1,5 +1,10 @@
 import React from 'react'
-import {Pr22, Pr23} from '../assets/Index'
+import '../Style.css'
+import ProductList from '../components/ProductList';
+import {Pr22, Pr23, Pr24} from '../assets/Index'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faNairaSign } from "@fortawesome/free-solid-svg-icons";
+import {   } from "@fortawesome/free-regular-svg-icons";
 
 const Products = () => {
   return (
@@ -18,11 +23,11 @@ const Products = () => {
                 <p className="CustomP-14-400">Coconut Flakes</p>
                 <h2>Coconut Crunchies</h2>
                 <div className="div">
-                  <del><small><span><i className="fa-solid fa-naira-sign"></i></span>120 </small></del>
-                  <span id="OrangeDoll" className="mt-lg-3 mt-3"><i className="fa-solid fa-naira-sign" style={{color: "#ec8209"}}></i>60</span>
+                  <del><small><span><FontAwesomeIcon icon={faNairaSign} className="fa-solid fa-naira-sign"></FontAwesomeIcon></span>120 </small></del>
+                  <span id="OrangeDoll" className="mt-lg-3 mt-3"><FontAwesomeIcon icon={faNairaSign}  style={{color: "#ec8209"}}></FontAwesomeIcon>60</span>
                 </div>
                 <div className="div mt-lg-3 mt-3">
-                  <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
+                  <span><FontAwesomeIcon icon={faStar}  style={{color: "#f27907"}}></FontAwesomeIcon></span>
                   <span>5.0 (37)</span>
                 </div>
                 <ul className="list-unstyled">
@@ -43,8 +48,8 @@ const Products = () => {
                     </div>
                     
                     <li className="mt-lg-3 mt-3 CustomP-16-400">Our Date-Coconut Delight combines the rich<br/> sweetness of organic date syrup with the tropical<br/> flavor of coconut flakes, creating a snack that’s both<br/> indulgent and healthy.</li>
-                     <button className="btn customBtn10 mt-4 ">Add to cart</button>
-                      <button className="btn customBtn11 mt-4 ">Add to cart</button>
+                     <button className=" customBtn10 mt-4 ">Add to cart</button>
+                      <button className=" customBtn11 mt-4 ">Add to cart</button>
                 </ul>
             </div>
         </div>
@@ -75,23 +80,23 @@ const Products = () => {
                 <p className="cardtitle-Black ">customer review</p>
                 <small className="CustomP-14-4000">77 rewiews</small>
                 <div className="mt-lg-3 mt-3">
-                    <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                    <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                    <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                    <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
-                    <span><i className="fa-solid fa-star" style={{color: "#e68805"}}></i></span>
+                    <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                    <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                    <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                    <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
+                    <span><FontAwesomeIcon icon={faStar}  style={{color: "#e68805"}}></FontAwesomeIcon></span>
                 </div>
-                <img src="./images/Login/Frame 17997.png" className="mt-lg-3 productImage1" alt=""/>
+                <img src={Pr24} className="mt-lg-3 productImage1" alt=""/>
             </div>
 
             <div className="col-sm-12 col-md-12 col-lg-5 mt-lg-3 mt-3">
                 <p className="cardtitle-Black">How would you rate this?</p>
                 <div>
-                    <i className="fa-solid fa-star" style={{color: "#01060e"}}></i>
-                    <i className="fa-solid fa-star" style={{color: "#01060e"}}></i>
-                    <i className="fa-solid fa-star" style={{color: "#01060e"}}></i>
-                    <i className="fa-solid fa-star" style={{color: "#01060e"}}></i>
-                    <i className="fa-solid fa-star" style={{color: "#01060e"}}></i>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#01060e"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#01060e"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#01060e"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#01060e"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#01060e"}}></FontAwesomeIcon>
                 </div>
                 <form action="">
                     <label for="inputEmail4" className="form-label mt-lg-3 mt-3 CustomP-14-4000">Add a headline</label>
@@ -225,89 +230,15 @@ const Products = () => {
 
      {/* product section 5 (OUR POPULAR PRODUCTS) */}
       {/* section header here  */}
-    <div className="container">
+    <div className="container mb-lg-5">
       <h2 className="mt-lg-5 mt-5 pt-lg-3 cardHeader-black">Similar Products</h2>
         
       <div className="hero2head d-flex justify-content-between align-items-center">
         <span className="my-lg-4 CustomP-16-400">Browse our most popular snacks and make your day<br/> more beautiful and glorious.</span>
         <button type="button" className="btn btn-outline-success fw-bold browseBTN my-lg-0 my-5">Browse all</button>
       </div>
-
-      <div className="row">
-        <div className="col-sm-12 col-md-12 col-lg-4">
-           {/* first card here   */}
-          <div className="border-0 " id="imgWidth">
-            <img src="./images/Images.png" className="card-img-top w-sm-100" alt="..."/>
-            <div className="card-body">
-              <div className="d-flex justify-content-between align-items-center">
-                <h5 className="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                <a className="text-reset " href="#">
-                  <i className="fa-regular fa-heart"></i>
-                </a> 
-              </div>
-              <p className="card-text cardtitle-Black">Organic Almond Delight</p>
-
-              <div className="d-flex justify-content-between align-items-center ">
-                <div className="div">
-                  <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                  <span>5.0 (18)</span>
-                </div>
-                <span className="fw-bold">$110</span>
-              </div>
-            </div>
-              <button className="btn customBtn mt-4 hover-underline">Add to cart</button>
-          </div>
-          </div>
-
-          <div className="col-sm-12 col-md-12 col-lg-4 mt-lg-0 mt-4 ">
-            {/* second card here   */}
-            <div className="border-0 " id="imgWidth">
-              <img src="./images/Images (1).png" className="card-img-top" alt="..."/>
-              <div className="card-body">
-                <div className="d-flex justify-content-between align-items-center">
-                  <h5 className="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                  <a className="text-reset " href="#">
-                    <i className="fa-regular fa-heart"></i>
-                  </a> 
-                </div>
-                <p className="card-text cardtitle-Black">Berry Bliss Bites</p>
-
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="div">
-                    <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                    <span>5.0 (18)</span>
-                  </div>
-                  <span className="fw-bold">$139</span>
-                </div>
-              </div>
-                <button className="btn customBtn mt-4 hover-underline">Add to cart</button>
-            </div>
-          </div>
-
-          <div className="col-sm-12 col-md-12 col-lg-4 mt-lg-0 mt-4">
-            {/* third card here   */}
-            <div className="border-0 " id="imgWidth">
-              <img src="./images/Images (2).png" className="card-img-top" alt="..."/>
-              <div className="card-body">
-                <div className="d-flex justify-content-between align-items-center">
-                  <h5 className="card-title CustomP-14-400 my-3 my-lg-3">Coconut Flakes</h5>
-                  <a className="text-reset " href="#">
-                    <i className="fa-regular fa-heart"></i>
-                  </a> 
-                </div>
-                <p className="card-text cardtitle-Black">Coconut Crunchies</p>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="div">
-                    <span><i className="fa-solid fa-star" style={{color: "#f27907"}}></i></span>
-                    <span>5.0 (18)</span>
-                  </div>
-                  <span className="fw-bold">$399</span>
-                </div>
-              </div>
-                <button className="btn customBtn mt-4 hover-underline">Add to cart</button>
-            </div>
-          </div>
-      </div>
+      <ProductList/>
+      
     </div>
     
      {/* product section 5 ends here   */}

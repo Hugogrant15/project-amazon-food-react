@@ -32,7 +32,7 @@ const ProductList = () => {
                     <span className="fw-bold">$110</span>
                   </div>
                 </div>
-                  <button className="btn  mt-4 hover-underline mb-5 mb-lg-0" >Add to cart</button>
+                  <button className="  mt-4 hover-underline mb-5 mb-lg-0" >Add to cart</button>
               </div>
               </div>
 
@@ -57,7 +57,7 @@ const ProductList = () => {
                       <span className="fw-bold">$139</span>
                     </div>
                   </div>
-                    <button className="btn customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
+                    <button className=" customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ const ProductList = () => {
                       <span className="fw-bold">$399</span>
                     </div>
                   </div>
-                    <button className="btn customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
+                    <button className=" customBtn mt-4 hover-underline mb-5 mb-lg-0">Add to cart</button>
                 </div>
               </div>
           </div>

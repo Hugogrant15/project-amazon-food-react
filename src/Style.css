@@ -92,6 +92,7 @@
 
 .liquid-morph-element {
   font-family: "Inter", sans-serif;
+  border: none;
   width: 150px;
   padding: 10px 15px;
   height: 48px;
@@ -139,7 +140,7 @@
   transform: scale(2);
 }
 
-.hero1Btn {
+/* .hero1Btn {
   border: 1px solid #f58634;
   font-family: "Inter", sans-serif;
   width: 150px;
@@ -149,15 +150,15 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 100%;
-}
+} */
 
-.hero1Btn:hover {
+/* .hero1Btn:hover {
   background-color: #f58634;
   color: white;
   padding: 10px 20px;
   border: none;
   transition: background-color 0.3s ease;
-}
+} */
 
 /* hero section 2 styling */
 
@@ -750,6 +751,9 @@ width: 93.9%;
 .customBtn10:hover {
   background-color: #f58634;
   color: #fff;
+  border-radius: 50px;
+  width: 360px;
+  height: 50px;
 }
 .customBtn11 {
   font-family: "Inter", sans-serif;
@@ -765,6 +769,9 @@ width: 93.9%;
 .customBtn11:hover {
   background-color: #00a859;
   color: #fff;
+  border-radius: 50px;
+  width: 360px;
+  height: 50px;
 }
 
 .cardtitle-Black12 {

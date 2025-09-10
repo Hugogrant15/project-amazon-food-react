@@ -3,8 +3,8 @@ import ProductList from '../components/ProductList';
 import {Pr1, Pr2, Pr3, Pr4, Pr5, Pr6, Pr7, Pr8, Pt1, Pr9, Pt3, Pr10, Pr11, Pr12, Pr13, Pr14, Pr15, Pr16, Pr17, Pr18, Pr19, Pr20, Pr} from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar, faShop} from "@fortawesome/free-solid-svg-icons";
-import { faHeart  } from "@fortawesome/free-regular-svg-icons";
+import { faStar, faShop, faChevronRight} from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faPaperPlane  } from "@fortawesome/free-regular-svg-icons";
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
             <div className="col-sm-12 col-md-12 col-lg-6 mt-lg-5 pt-lg-5">
               <p id="interBlack">Discover the Pure Taste of Nature</p>
               <h1 className="mt-4"><span id="Green1">Organic</span><span id="Orange1"> Snacks</span><br/><span id="Green1"> Made</span><span id="Orange1"> with</span><span id="Green1"> Love,</span><br/><span id="Green1"> Just</span><span id="Orange1"> for</span><span id="Green1"> You!</span></h1>
-              <button className="btn hero1Btn mt-5  mb-5 mb-lg-0 py-lg-4">Show Now<FontAwesomeIcon icon={faShop} className="fa-solid fa-shop ms-lg-3 ms-md-3 ms-3" style={{color: "#ffffff"}}></FontAwesomeIcon></button>
+              <button className=" liquid-morph-element hero1Btn mt-5  mb-5 mb-lg-0 py-lg-4">Show Now<FontAwesomeIcon icon={faShop} className=" ms-lg-2 ms-md-3 ms-3" style={{color: "#ffffff"}}></FontAwesomeIcon></button>
               <img src={Pr2} className="mt-lg-5 mt-4 " alt=""/>
             </div>
 
@@ -25,11 +25,11 @@ const Home = () => {
               <img className="w-100 image-fluid starRelative " src={Pr1} alt="" style={{width: "100px", position: "relative"}} /> 
               </div>
                 <div className="star-rating  hero1absolute text-center ">
-                    <i className="fa-regular fa-star starIcon" style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}} ></i>
-                  <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></i>
-                    <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></i>
-                    <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></i>
-                    <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></i> 
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faStar}  style={{color: "#fcfcfc", backgroundColor: "#F58634", width: "47px", height: "35px"}}></FontAwesomeIcon>
                 </div>
                 <div className="div ">
                   
@@ -126,7 +126,7 @@ const Home = () => {
                     <img class="BulkCard" src={Pr12} alt=""/>
                     <p class="cardtitle-Black mt-3">Organic Almond Delight</p>
                     <p class="CustomP-16-400">Crunchy almonds<br/> coated with a touch<br/> of organic honey,<br/> perfect for a healthy<br/> snack.</p>
-                    <button class="btn btn-outline-success px-5 mt-3 py-lg-3 py-3 ourProdctBTN" style={{border: "2px solid #00A859"}}>ORDER NOW <i class="fa-solid fa-chevron-right ms-3" style={{color: "#00A859"}}></i></button>
+                    <button class="btn btn-outline-success px-5 mt-3 py-lg-3 py-3 ourProdctBTN" style={{border: "2px solid #00A859"}}>ORDER NOW <FontAwesomeIcon icon={faChevronRight}  style={{color: "#00A859"}}></FontAwesomeIcon></button>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@ const Home = () => {
                     <img class="BulkCard" src={Pr13} alt=""/>
                     <p class="cardtitle-Black mt-3">Berry Bliss Bites</p>
                     <p class="CustomP-16-400">Crunchy almonds<br/> coated with a touch<br/> of organic honey,<br/> perfect for a healthy<br/> snack.</p>
-                    <button class="btn btn-outline-success px-5 mt-3 py-lg-3 py-3 ourProdctBTN" style={{border: "2px solid #00A859"}}>ORDER NOW <i class="fa-solid fa-chevron-right ms-3" style={{color: "#00A859"}}></i></button>
+                    <button class="btn btn-outline-success px-5 mt-3 py-lg-3 py-3 ourProdctBTN" style={{border: "2px solid #00A859"}}>ORDER NOW <FontAwesomeIcon icon={faChevronRight}  style={{color: "#00A859"}}></FontAwesomeIcon></button>
 
                   </div>
                 </div>
@@ -151,7 +151,7 @@ const Home = () => {
                     <img class="BulkCard" src={Pr14} alt=""/>
                     <p class="cardtitle-Black mt-3">Coconut Crunchies</p>
                     <p class="CustomP-16-400">A delightful mix of<br/> organic berries and<br/> nuts, offering a burst<br/> of flavor in every<br/> bite.</p>
-                    <button class="btn btn-outline-success px-5 mt-3 py-lg-3 py-3 ourProdctBTN" style={{border: "2px solid #00A859"}}>ORDER NOW <i class="fa-solid fa-chevron-right ms-3" style={{color: "#00A859"}}></i></button>
+                    <button class="btn btn-outline-success px-5 mt-3 py-lg-3 py-3 ourProdctBTN" style={{border: "2px solid #00A859"}}>ORDER NOW <FontAwesomeIcon icon={faChevronRight}  style={{color: "#00A859"}}></FontAwesomeIcon></button>
 
                   </div>
                 </div>
@@ -223,7 +223,7 @@ const Home = () => {
                     <span class="fw-bold">$110</span>
                   </div>
                 </div>
-                  <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
+                  <button class=" customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
               </div>
             </div>      
           </div>
@@ -251,7 +251,7 @@ const Home = () => {
                 <span class="fw-bold">$110</span>
               </div>
             </div>
-              <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
+              <button class=" customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
           </div>
           </div>
 
@@ -276,7 +276,7 @@ const Home = () => {
                   <span class="fw-bold">$139</span>
                 </div>
               </div>
-                <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
+                <button class=" customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
             </div>
           </div>
 
@@ -300,7 +300,7 @@ const Home = () => {
                   <span class="fw-bold">$399</span>
                 </div>
               </div>
-                <button class="btn customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
+                <button class=" customBtn mt-4 hover-underline mb-lg-0 mb-4">Add to cart</button>
             </div>
           </div>
         </div>
@@ -321,7 +321,7 @@ const Home = () => {
               <form action="" >
                 <span class="FormRelative">
                   <input  type="email" class="form inptTBtn " placeholder="Enter your email address"/>
-                  <button class="fromAbsol"><i class="fa-regular fa-paper-plane" style={{color: "#fff"}}></i></button>
+                  <button class="fromAbsol"><FontAwesomeIcon icon={faPaperPlane}  style={{color: "#fff"}}></FontAwesomeIcon></button>
                 </span>
               </form>
 

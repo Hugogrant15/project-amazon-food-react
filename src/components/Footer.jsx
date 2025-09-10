@@ -2,6 +2,8 @@ import React from 'react'
 import { Pr, Pr21 } from '../assets/Index';
 import '../Style.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar} from "@fortawesome/free-solid-svg-icons";
+
 
 
 
@@ -13,15 +15,15 @@ const Footer = () => {
           <div className="text-center">
               <h3 className="footHead1">Excellent</h3>
                 <div className="star-rating text-center mt-3">
-                  <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "35px"}} ></i>
-                  <i className="fa-regular fa-star"style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "35px"}}></i>
-                  <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "35px"}}></i>
-                  <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "35px"}}></i>
-                  <i className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "35px"}}></i>
+                  <FontAwesomeIcon icon={faStar} className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "37px"}} ></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faStar} className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "37px"}} ></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faStar} className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "37px"}} ></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faStar} className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "37px"}} ></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faStar} className="fa-regular fa-star" style={{color: "#fcfcfc", backgroundColor: "#00A859", width: "47px", height: "37px"}} ></FontAwesomeIcon>
               </div>
               <p className="CustomP-14-400 text-white mt-3">Based on 13,586 reviews</p>
               <div>
-                <span><i className="fa-solid fa-star" style={{color: "#047c58", width: "35px", height: "25px"}}></i></span>
+                <span><FontAwesomeIcon icon={faStar}  style={{color: "#047c58", width: "35px", height: "25px"}}></FontAwesomeIcon></span>
                 <span className="text-white fs-5">Trustpilot</span>
               </div>
           </div>
